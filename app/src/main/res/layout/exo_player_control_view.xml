@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/exo_prev"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="2dp"
+            android:padding="8dp"
+            android:background="@android:color/transparent"
+            app:icon="@android:drawable/ic_media_previous"
+            app:iconSize="32dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/exo_play_pause"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="2dp"
+            android:padding="8dp"
+            android:background="@android:color/transparent"
+            app:icon="@android:drawable/ic_media_play"
+            app:iconSize="32dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/exo_next"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="2dp"
+            android:padding="8dp"
+            android:background="@android:color/transparent"
+            app:icon="@android:drawable/ic_media_next"
+            app:iconSize="32dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_sync"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="2dp"
+            android:padding="8dp"
+            android:background="@android:color/transparent"
+            app:icon="@android:drawable/ic_menu_rotate"
+            app:iconSize="32dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_set_folder"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="2dp"
+            android:padding="8dp"
+            android:background="@android:color/transparent"
+            app:icon="@android:drawable/ic_menu_manage"
+            app:iconSize="32dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_exit"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="2dp"
+            android:padding="8dp"
+            android:background="@android:color/transparent"
+            app:icon="@android:drawable/ic_menu_close_clear_cancel"
+            app:iconSize="32dp" />
+
+    </LinearLayout>
+</FrameLayout>

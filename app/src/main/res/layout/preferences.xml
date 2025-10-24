@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="video_folder_path"
+        android:title="Video Folder Path"
+        android:summary="Set the folder containing videos"
+        android:defaultValue="/storage/emulated/0/DCIM/Camera" />
+</PreferenceScreen>
